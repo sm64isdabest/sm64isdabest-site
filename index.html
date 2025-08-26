@@ -8,12 +8,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="src/css/global.css">
+    <link rel="stylesheet" href="src/css/index.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand d-lg-none" href="index.html">
                 <img src="src/img/logotest.png" alt="SM64IsDaBest página inicial">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -21,24 +22,58 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <ul class="navbar-nav mx-auto">
+                    <a class="navbar-brand d-none d-lg-block" href="index.html">
+                        <img src="src/img/logotest.png" alt="SM64IsDaBest página inicial">
+                    </a>
+                    <li class="nav-item py-2">
+                        <a class="nav-link disabled" aria-disabled="true">Sobre Mim</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                    <li class="nav-item py-2">
+                        <a class="nav-link disabled" aria-disabled="true">Blog</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                    <li class="nav-item py-2">
+                        <a class="nav-link disabled" aria-disabled="true">Biblioteca</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    <li class="nav-item py-2">
+                        <a class="nav-link disabled" aria-disabled="true">Links</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
+    <main>
+        <div class="welcome">
+            <h1>Seja bem-vindo!</h1>
+            <ul>
+                <li>
+                    <a href="#">SOBRE MIM</a>
+                </li>
+                <li>
+                    <a href="#">BLOG</a>
+                </li>
+                <li>
+                    <a href="#">BIBLIOTECA</a>
+                </li>
+                <li>
+                    <a href="#">LINKS</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <picture>
+                <img src="src/img/HappyEmote.png" alt="Emote feliz do Battle for Neighborville">
+            </picture>
+            <h2>SM64ISDABEST</h2>
+            <h2>SM64ISDABEST</h2>
+            <h2>SM64ISDABEST</h2>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"

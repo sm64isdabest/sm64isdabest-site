@@ -1,3 +1,7 @@
-.navbar {
-    color: blue !important;
+nav {
+    background-color: rgb(39, 94, 196);
+}
+
+.nav-link {
+    color: white;
 }

@@ -1,0 +1,31 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome h1 {
+    color: rgb(0, 32, 91);
+    font-size: 100px;
+    text-decoration: underline;
+    text-shadow: rgba(0, 0, 0, 25%) 0 0.5rem 3px;
+}
+
+.welcome ul {
+    list-style: none;
+    padding-left: 28.5rem;
+
+}
+
+.welcome ul li {
+    margin: 0 5px;
+    float: left;
+}
+
+.welcome ul li a {
+    text-decoration: none;
+    color: rgb(39, 94, 196);
+    font-weight: bolder;
+    font-size: xx-large;
+}
