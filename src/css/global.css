@@ -2,6 +2,10 @@ nav {
     background-color: rgb(39, 94, 196);
 }
 
+.navbar-brand img {
+    -webkit-user-drag: none;
+}
+
 .nav-link {
     color: white;
 }

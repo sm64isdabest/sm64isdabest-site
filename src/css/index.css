@@ -1,8 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    overflow-y: hidden;
+}
+
 main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 85vh;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .welcome h1 {
@@ -14,7 +27,7 @@ main {
 
 .welcome ul {
     list-style: none;
-    padding-left: 28.5rem;
+    /* padding-left: 28.5rem; */
 
 }
 
@@ -28,4 +41,37 @@ main {
     color: rgb(39, 94, 196);
     font-weight: bolder;
     font-size: xx-large;
+}
+
+.bottom-part h2 {
+    position: absolute;
+    margin-left: 25rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 125px;
+}
+
+.smOne {
+    bottom: 6%;
+    color: rgba(0, 0, 0, 25%);
+}
+
+.smTwo {
+    bottom: 3%;
+    color: rgba(0, 39, 113, 25%);
+    left: 1%;
+}
+
+.smThree {
+    bottom: 0;
+    color: rgba(5, 78, 215, 25%);
+    left: 2%;
+}
+
+.bottom-part img {
+    position: absolute;
+    -webkit-user-drag: none;
+    bottom: 0;
+    left: 0;
+    width: 35rem;
 }
