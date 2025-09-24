@@ -1,0 +1,31 @@
+main {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 1.5rem;
+    flex-flow: row wrap;
+    justify-content: center;
+    max-width: 900px;
+}
+
+.buttons img {
+    max-width: 400px;
+    border-radius: 25px;
+    transition: transform 0.3s cubic-bezier(.68,-0.55,.27,1.55), box-shadow 0.3s;
+}
+
+.buttons img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+}
+
+.buttons div h2 {
+    position: absolute;
+}
+
+
