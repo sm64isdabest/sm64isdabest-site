@@ -15,17 +15,40 @@ main {
 .buttons img {
     max-width: 400px;
     border-radius: 25px;
+}
+
+.buttons a div {
     transition: transform 0.3s cubic-bezier(.68,-0.55,.27,1.55), box-shadow 0.3s;
 }
 
-.buttons img:hover {
+.buttons a div:hover {
     transform: scale(1.05);
     cursor: pointer;
     box-shadow: 0 8px 32px rgba(0,0,0,0.18);
 }
 
-.buttons div h2 {
+.biblioteca-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.biblioteca-link div {
+    position: relative;
+}
+
+.biblioteca-link div h2 {
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    margin: 0;
+    font-size: 3.5rem;
+    text-shadow:
+        3px 3px 4px black,
+        1px 1px 10px white;
+    z-index: 10;
+    pointer-events: none;
 }
 
 
