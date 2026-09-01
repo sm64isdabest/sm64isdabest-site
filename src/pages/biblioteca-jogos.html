@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biblioteca - Jogos</title>
+    <title>Biblioteca – Jogos</title>
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="shortcut icon" href="/favicon.ico" />
@@ -13,11 +13,111 @@
     <link rel="manifest" href="/site.webmanifest" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/biblioteca-grid.css">
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand d-lg-none" href="../../index.html">
+                <img src="../img/logotest.png" alt="SM64IsDaBest página inicial">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <a class="navbar-brand d-none d-lg-block" href="../../index.html">
+                        <img src="../img/logotest.png" alt="SM64IsDaBest página inicial">
+                    </a>
+                    <li class="nav-item py-2">
+                        <a class="nav-link disabled" aria-disabled="true">Sobre Mim</a>
+                    </li>
+                    <li class="nav-item py-2">
+                        <a class="nav-link disabled" aria-disabled="true">Blog</a>
+                    </li>
+                    <li class="nav-item py-2">
+                        <a class="nav-link active" href="biblioteca.html" aria-current="page">Biblioteca</a>
+                    </li>
+                    <li class="nav-item py-2">
+                        <a class="nav-link disabled" aria-disabled="true">Links</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
+    <main>
+        <div class="filters">
+            <div class="filter-title">
+                <i class="bi bi-list"></i>
+                <p>Filtros</p>
+            </div>
+
+            <div class="buttons-filter">
+                <button class="filter-button">A a Z</button>
+                <button class="filter-button">Z a A</button>
+                <button class="filter-button">Data de lançamento</button>
+            </div>
+
+            <div class="buttons-include">
+                <button class="filter-button">DLCs</button>
+                <button class="filter-button">Mods</button>
+            </div>
+        </div>
+
+        <div class="platinados library-section">
+            <header>
+                <p>PLATINADOS (<span class="plat-count">0</span>)</p>
+                <i class="bi bi-caret-down-fill"></i>
+                <div class="plat-border line"></div>
+            </header>
+
+            <div class="plat-games games">
+
+            </div>
+        </div>
+
+        <div class="zerados library-section">
+            <header>
+                <p>ZERADOS (<span class="zerados-count">0</span>)</p>
+                <i class="bi bi-caret-down-fill"></i>
+                <div class="zerados-border line"></div>
+            </header>
+
+            <div class="zerados-games games">
+
+            </div>
+        </div>
+
+        <div class="na-biblioteca library-section">
+            <header>
+                <p>NA BIBLIOTECA (<span class="biblioteca-count">0</span>)</p>
+                <i class="bi bi-caret-down-fill"></i>
+                <div class="biblioteca-border line"></div>
+            </header>
+
+            <div class="biblioteca-games games">
+
+            </div>
+        </div>
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+    <script src="../js/games-data.js"></script>
+    <script src="../js/game-library.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
         crossorigin="anonymous"></script>
