@@ -15,16 +15,16 @@ main {
 .buttons img {
     max-width: 400px;
     border-radius: 25px;
+    filter: blur(3px);
 }
 
 .buttons a div {
-    transition: transform 0.3s cubic-bezier(.68,-0.55,.27,1.55), box-shadow 0.3s;
+    transition: transform 0.3s cubic-bezier(.68,-0.55,.27,1.55);
 }
 
 .buttons a div:hover {
     transform: scale(1.05);
     cursor: pointer;
-    box-shadow: 0 8px 32px rgba(0,0,0,0.18);
 }
 
 .biblioteca-link {
